@@ -15,14 +15,14 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
           <Link
-            href="/books"
+            href="/homepage"
             className="px-6 py-3 text-lg font-medium rounded-md bg-[#5B8C90] text-primary-foreground hover:bg-[#466b6e]"
           >
             Parcourir les livres
           </Link>
           <Link
             href="/register"
-            className="px-6 py-3 text-lg font-medium rounded-md bg-secondary border-[#5B8C90] border-2 text-secondary-foreground hover:bg-[#5B8C90] "
+            className="px-6 py-3 text-lg font-medium rounded-md bg-[#90624B]  border-2 text-secondary-foreground hover:bg-[#533e33] "
           >
             Créer un compte
           </Link>

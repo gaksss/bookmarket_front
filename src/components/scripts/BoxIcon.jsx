@@ -2,6 +2,9 @@
 
 import 'boxicons'
 
+
+
+
 const BoxIcon = ({ name, ...props }) => {
   return <box-icon name={name} {...props}></box-icon>
 }

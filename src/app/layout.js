@@ -2,6 +2,7 @@ import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import Navbar from "@/components/layout/navbar";
+import Hero from "@/components/home/hero";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -27,7 +28,8 @@ export default function RootLayout({ children }) {
       >
         <Providers>
           <Navbar/>
-          {children}</Providers>
+          <Hero/>
+          </Providers>
       </body>
     </html>
   );

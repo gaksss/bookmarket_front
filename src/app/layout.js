@@ -2,7 +2,7 @@ import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import Navbar from "@/components/layout/navbar";
-import Hero from "@/components/home/hero";
+import Hero from "@/components/landing/hero";
 
 const inter = Inter({
   variable: "--font-inter",
